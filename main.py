@@ -71,7 +71,7 @@ def compare(guess:str, random_word, sentinel, attempts):
         guess = user_input(length, random_word)
 
 
-print("Welcome to bootleg Wordle! - Enter Q when if you give up! ")
+print("Welcome to bootleg Wordle! - Enter Q if you give up! ")
 word_list(words, length)
 random_word = random_choice(words)
 guess = user_input(length, random_word)
